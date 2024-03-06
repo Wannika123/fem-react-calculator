@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/Wannika123/fem-react-calculator)
-- Live Site URL: [GitHub page](https://your-live-site-url.com)
+- Live Site URL: [netlify](https://dynamic-dasik-f9024c.netlify.app/)
 
 ## My process
 
