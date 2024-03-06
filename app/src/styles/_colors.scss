@@ -1,0 +1,56 @@
+.theme-1 {
+    --main-background: hsl(222, 26%, 31%);
+    --toggle-keypad-background: hsl(223, 31%, 20%);
+    --screen-background: hsl(224, 36%, 15%);
+    /* key */
+    --DEL-RESET-background: hsl(225, 21%, 49%);
+    --DEL-RESET-shadow: hsl(224, 28%, 35%);
+    --EQUAL-background: hsl(6, 63%, 50%); /* also for toggle ball */
+    --EQUAL-shadow: hsl(6, 70%, 34%);
+    --key-background: hsl(30, 25%, 89%);
+    --key-shadow: hsl(28, 16%, 65%);
+    /* text */
+    --header-text: hsl(0, 0%, 100%);
+    --screen-text: hsl(0, 0%, 100%);
+    --keypad-text: hsl(221, 14%, 31%);
+    --del-reset-text: hsl(0, 0%, 100%);
+    --equal-text: hsl(0, 0%, 100%);
+}
+
+.theme-2 {
+    --main-background: hsl(0, 0%, 90%);
+    --toggle-keypad-background: hsl(0, 5%, 81%);
+    --screen-background: hsl(0, 0%, 93%);
+    /* key */
+    --DEL-RESET-background: hsl(185, 42%, 37%);
+    --DEL-RESET-shadow: hsl(185, 58%, 25%);
+    --EQUAL-background: hsl(25, 98%, 40%); /* also for toggle ball */
+    --EQUAL-shadow: hsl(25, 99%, 27%);
+    --key-background: hsl(45, 7%, 89%);
+    --key-shadow: hsl(35, 11%, 61%);
+    /* text */
+    --header-text: hsl(60, 10%, 19%);
+    --screen-text: hsl(60, 10%, 19%);
+    --keypad-text: hsl(60, 10%, 19%);
+    --del-reset-text: hsl(0, 0%, 100%);
+    --equal-text: hsl(0, 0%, 100%);
+}
+
+.theme-3 {
+    --main-background: hsl(268, 75%, 9%);
+    --toggle-keypad-background: hsl(268, 71%, 12%);
+    --screen-background: hsl(268, 71%, 12%);
+    /* key */
+    --DEL-RESET-background: hsl(281, 89%, 26%);
+    --DEL-RESET-shadow: hsl(285, 91%, 52%);
+    --EQUAL-background: hsl(176, 100%, 44%); /* also for toggle ball */
+    --EQUAL-shadow: hsl(177, 92%, 70%);
+    --key-background: hsl(268, 47%, 21%);
+    --key-shadow: hsl(290, 70%, 36%);
+    /* text */
+    --header-text: hsl(52, 100%, 62%);
+    --screen-text: hsl(52, 100%, 62%);
+    --keypad-text: hsl(52, 100%, 62%);
+    --del-reset-text: hsl(0, 0%, 100%);
+    --equal-text: hsl(198, 20%, 13%);
+}

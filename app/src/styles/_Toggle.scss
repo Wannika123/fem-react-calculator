@@ -1,0 +1,79 @@
+@import "colors";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--main-background);
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+}
+  
+#root {
+    width: 100%;
+    max-width: 30rem;
+    margin: 10px;
+}
+
+.Toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--header-text);
+    padding: 10px;
+    .toggle-btns-container {
+        display: grid;
+        grid-template-columns: 1.4rem 1.4rem 1.4rem;
+        justify-items: center;
+        align-items: center;
+        border: none;
+        position: relative;       
+        legend {
+            position: absolute;
+            left: -70px;
+            top: 1.25rem;
+            font-size: 0.825rem;
+        }
+        .radio-btns {
+            grid-column: 1 / 4;
+            position: relative;
+            width: 4.2rem;
+            height: 1.4rem;
+            border-radius: 1.4rem;
+            background-color: var(--toggle-keypad-background);
+            input[type="radio"] {
+                width: 33%;
+                height: 100%;
+                opacity: 0;
+            }
+            .switcher {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto 0;
+                width: 1.2rem;
+                height: 1.2rem;
+                border-radius: 50%;
+                z-index: 3;
+                transition: all 0.2s ease-in-out;
+                background-color: var(--EQUAL-background);
+            }
+            #theme-1:checked ~ .switcher {
+                left: 0.1rem;
+            }
+            #theme-2:checked ~ .switcher {
+                left: 1.5rem;
+            }
+            #theme-3:checked ~ .switcher {
+                right: 0.1rem;
+            }
+        }
+    }
+}
